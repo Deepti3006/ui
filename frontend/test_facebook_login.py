@@ -1,4 +1,4 @@
-from Documents.sample_automation_framework.automation_helpers.page_objects_helper import pageObjectHelper
+from ui.automation_helpers.page_objects_helper import pageObjectHelper
 
 
 class testFacebookLogin():

@@ -1,5 +1,5 @@
-from Documents.sample_automation_framework.automation_helpers import *
-from Documents.sample_automation_framework.automation_helpers.webdriver import webDriver
+from ui import *
+from ui.automation_helpers.webdriver import webDriver
 
 
 class pageObjectHelper(webDriver):
