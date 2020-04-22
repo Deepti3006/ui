@@ -5,7 +5,8 @@ class webDriver():
 
         def loadDriver(self):
                 print("Addig the webdriver details")
-                driver = webdriver.Firefox()
+                #driver = webdriver.Firefox("/usr/local/bin/geckodriver")
+                driver = webdriver.Firefox("/usr/local/bin/geckodriver")
                 #self.version = webdriver.Firefox().save_screenshot("screenshot.png")
                 driver = driver
                 print("Loading the web driver")
